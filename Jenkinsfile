@@ -9,7 +9,7 @@ pipeline {
       stage('stage-1') {
          steps {
             writeFile file: 'test.txt', text: 'Test content'
-            sh 'cat tset.txt'
+            sh 'cat test.txt'
          }
       }
    }
